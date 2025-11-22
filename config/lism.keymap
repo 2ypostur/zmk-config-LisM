@@ -130,7 +130,7 @@
                 &kp LEFT_SHIFT  &kp NUMBER_1       &kp NUMBER_2           &kp NUMBER_3          &kp MINUS                                                &kp SLASH        &kp LEFT_ARROW   &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW
                 &trans          &trans             &trans                 &trans                &trans                                        &trans     &trans           &trans           &trans              &trans            &trans
             >;
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&encoder_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_2 {
@@ -141,7 +141,7 @@
                 &kp LEFT_SHIFT  &kp NUMBER_1       &kp NUMBER_2           &kp NUMBER_3          &kp MINUS                                                &kp SLASH        &kp LEFT_ARROW   &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW
                 &trans          &trans             &trans                 &trans                &trans                                        &trans     &trans           &trans           &trans              &trans            &trans
             >;
-           sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&encoder_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_3 {
@@ -182,7 +182,7 @@
                &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2          &bt BT_SEL 3            &bt BT_SEL 4                                           &kp SLASH        &kp LEFT_ARROW   &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW
                &bootloader      &bt BT_CLR_ALL     &trans                &trans                  &trans          　　　　　　　　　　　　　　     &trans     &trans           &trans           &trans              &trans            &trans
             >;
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&encoder_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_7 {
