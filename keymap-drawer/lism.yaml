@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Brank Layer}
   - O
   - P
   - A
@@ -223,7 +223,7 @@ layers:
   - BT CLR
   - ','
   - PERIOD
-  - '&mkp MB3'
+  - {t: '&mkp MB3', type: held}
   - LBKT
   - RBKT
   - Reset
