@@ -169,8 +169,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(588, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">I</text>
-<a href="#Brank-Layer">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Brank Layer</tspan></text>
+<a href="#Number-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Number Lay…</tspan></text>
 </a></g>
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -280,7 +280,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(140, 196)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.9em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LANG1</tspan>
+<tspan x="0" dy="-0.9em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LANG2</tspan>
 </text>
 <a href="#Brank-Layer">
 <text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Brank Layer</tspan></text>
@@ -327,7 +327,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(644, 196)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LANG2</text>
+<text x="0" y="0" class="key tap">LANG1</text>
 </g>
 <g transform="translate(700, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -559,9 +559,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">PERIOD</text>
 </g>
-<g transform="translate(588, 28)" class="key keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
+<g transform="translate(588, 28)" class="key held keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">
 <tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
 </text>
 </g>
@@ -1135,9 +1135,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">PERIOD</text>
 </g>
-<g transform="translate(588, 28)" class="key held keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">
+<g transform="translate(588, 28)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
 </text>
 </g>

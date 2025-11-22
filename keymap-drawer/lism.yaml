@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: Brank Layer}
+  - {t: I, h: Number Layer}
   - O
   - P
   - A
@@ -33,7 +33,7 @@ layers:
   - RIGHT ARROW
   - LEFT SHIFT
   - LEFT ALT
-  - {t: '&to_layer_0 LANG1', h: Brank Layer}
+  - {t: '&to_layer_0 LANG2', h: Brank Layer}
   - Sft+Gui+4
   - LEFT GUI
   - {t: SPACE, h: Mark Layer}
@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: Mouse Layer}
   - Sft+Gui+4
   - LEFT GUI
-  - LANG2
+  - LANG1
   - {t: '9', h: LCTRL}
   Mouse Layer:
   - ESCAPE
@@ -94,7 +94,7 @@ layers:
   - '0'
   - ','
   - PERIOD
-  - '&mkp MB3'
+  - {t: '&mkp MB3', type: held}
   - LBKT
   - RBKT
   - TAB
@@ -223,7 +223,7 @@ layers:
   - BT CLR
   - ','
   - PERIOD
-  - {t: '&mkp MB3', type: held}
+  - '&mkp MB3'
   - LBKT
   - RBKT
   - Reset
