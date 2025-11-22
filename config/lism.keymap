@@ -26,6 +26,7 @@
                 <&macro_tap &kp E>,
                 <&macro_release &kp CAPSLOCK>;
         };
+
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
@@ -63,8 +64,6 @@
             #binding-cells = <0>;
             bindings = <&kp NUMBER_5>;
         };
-
-
     };
 
     behaviors {
@@ -80,6 +79,7 @@
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
         };
+
 /* 既存：タップでレイヤー0へ、ホールドで一時的に別レイヤー（使用側で引数を渡す） */
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
@@ -106,7 +106,6 @@
             tapping-term-ms = <200>;
             bindings = <&cmd_opt_latch &tap_5>;
         };
-
     };
 
     keymap {
@@ -178,10 +177,10 @@
         layer_6 {
             display-name = "Brank Layer";
             bindings = <
-               &none            &none              &none                 &none                   &bt BT_CLR                                             &none        &none            &none              &none               &none
-               &sys_reset       &none              &none                 &none                   &none                                                  &none        &none            &none              &none               &none
-               &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2          &bt BT_SEL 3            &bt BT_SEL 4                                           &none        &none            &none              &none               &none
-               &bootloader      &bt BT_CLR_ALL     &none                 &none                   &none             &none               &none            &none        &none            &none              &none               &none
+               &none            &none              &none                 &none                   &bt BT_CLR                                             &kp COMMA        &kp PERIOD       &mkp MB3            &kp LBKT         &kp RBKT
+               &sys_reset       &none              &none                 &none                   &none                                                  &kp SEMI         &mkp MB1         &mkp MB1            &kp UP_ARROW     &mkp MB2
+               &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2          &bt BT_SEL 3            &bt BT_SEL 4                                           &kp SLASH        &kp LEFT_ARROW   &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW
+               &bootloader      &bt BT_CLR_ALL     &trans                &trans                  &trans          　　　　　　　　　　　　　　     &trans     &trans           &trans           &trans              &trans            &trans
             >;
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
@@ -189,12 +188,10 @@
         layer_7 {
             display-name = "Brank Layer";
             bindings = <
-               &none            &none              &none                 &none                   &bt BT_CLR                                             &none        &none            &none              &none               &none
-               &sys_reset       &none              &none                 &none                   &none                                                  &none        &none            &none              &none               &none
-               &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2          &bt BT_SEL 3            &bt BT_SEL 4                                           &none        &none            &none              &none               &none
-               &bootloader      &bt BT_CLR_ALL     &none                 &none                   &none             &none               &none            &none        &none            &none              &none               &none
-               >;
-
+               &none            &none              &none                 &none                   &bt BT_CLR                                             &kp COMMA        &kp PERIOD       &mkp MB3            &kp LBKT         &kp RBKT
+               &sys_reset       &none              &none                 &none                   &none                                                  &kp SEMI         &mkp MB1         &mkp MB1            &kp UP_ARROW     &mkp MB2
+               &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2          &bt BT_SEL 3            &bt BT_SEL 4                                           &kp SLASH        &kp LEFT_ARROW   &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW
+               &bootloader      &bt BT_CLR_ALL     &trans                &trans                  &trans          　　　　　　　　　　　　　　     &trans     &trans           &trans           &trans              &trans            &trans               >;
         };
     };
 
