@@ -117,7 +117,7 @@
                 &kp Q            &kp W              &kp E                    &kp R                   &kp T                                                  &kp Y          &kp U            &lt 2 I                &kp O               &kp P
                 &kp A            &kp S              &kp D                    &kp F                   &kp G                                                  &kp H          &kp J            &kp K                  &kp L               &mt LEFT_SHIFT NUMBER_6
                 &kp Z            &kp X              &kp C                    &kp V                   &kp B                                                  &kp N          &kp M            &ht_cmdshift_left 0 0  &ht_cmdopt_5 0 0    &kp RIGHT_ARROW
-                &kp LEFT_SHIFT   &kp LEFT_ALT       &lt_to_layer_0 6 LANG2   &kp LS(LG(N4))          &kp LEFT_GUI      &lt 3 SPACE           &kp BACKSPACE  &lt 1 ENTER      &kp LS(LG(N4))         &kp LEFT_GUI        &kp LANG1           &mt LCTRL NUMBER_9
+                &kp LEFT_SHIFT   &kp LEFT_ALT       &lt3 LANG2               &kp LS(LG(N4))          &kp LEFT_GUI      &kp SPACE           &kp BACKSPACE  &lt 1 ENTER      &kp LS(LG(N4))         &kp LEFT_GUI        &kp LANG1           &mt LCTRL NUMBER_9
             >;
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
