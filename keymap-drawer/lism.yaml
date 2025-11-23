@@ -33,7 +33,7 @@ layers:
   - RIGHT ARROW
   - LEFT SHIFT
   - LEFT ALT
-  - '&lt3 LANG2'
+  - {t: LANG2, h: Mark Layer}
   - Sft+Gui+4
   - LEFT GUI
   - SPACE
@@ -162,7 +162,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
