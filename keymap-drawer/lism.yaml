@@ -33,7 +33,7 @@ layers:
   - RIGHT ARROW
   - LEFT SHIFT
   - LEFT ALT
-  - {t: '&to_layer_0 LANG2', h: Brank Layer}
+  - {t: LANG2, h: Mark Layer}
   - Sft+Gui+4
   - LEFT GUI
   - {t: SPACE, h: Number Layer}
@@ -162,7 +162,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ layers:
   - RIGHT ARROW
   - Boot
   - BT CLR ALL
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
