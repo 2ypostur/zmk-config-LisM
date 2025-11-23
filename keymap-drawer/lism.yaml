@@ -33,14 +33,14 @@ layers:
   - RIGHT ARROW
   - LEFT SHIFT
   - LEFT ALT
-  - {t: LANG2, h: Mark Layer}
+  - {t: '&to_layer_0 LANG2', h: Brank Layer}
   - Sft+Gui+4
   - LEFT GUI
-  - SPACE
+  - {t: SPACE, h: Number Layer}
   - BS
   - {t: ENTER, h: Mouse Layer}
   - Sft+Gui+4
-  - LEFT GUI
+  - space
   - LANG1
   - {t: '9', h: LCTRL}
   Mouse Layer:
@@ -162,7 +162,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ layers:
   - RIGHT ARROW
   - Boot
   - BT CLR ALL
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
