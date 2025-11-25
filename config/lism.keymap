@@ -17,6 +17,45 @@
 
 
 / {
+
+  combos {
+        compatible = "zmk,combos";
+
+        LANG1 {
+            bindings = <&kp LANG1>;
+            key-positions = <6 7>;
+        };
+
+        LANG2 {
+            bindings = <&kp LANG2>;
+            key-positions = <4 5>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+        };
+
+
+        double_quotation {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <20 21>;
+        };
+
+        eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <24 25>;
+        };
+    };
+
+
+
+
     macros {
         emoji: emoji_macro {
             compatible = "zmk,behavior-macro";
