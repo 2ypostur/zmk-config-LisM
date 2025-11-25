@@ -21,12 +21,12 @@
   combos {
         compatible = "zmk,combos";
 
-        LANG1 {
+        jp_LANG1 {
             bindings = <&kp LANG1>;
             key-positions = <6 7>;
         };
 
-        LANG2 {
+        en_LANG2 {
             bindings = <&kp LANG2>;
             key-positions = <4 5>;
         };
