@@ -40,7 +40,7 @@ layers:
   - BS
   - {t: ENTER, h: Mouse Layer}
   - Sft+Gui+4
-  - CAPS
+  - SPACE
   - LANG1
   - {t: '9', h: LCTRL}
   Mouse Layer:
