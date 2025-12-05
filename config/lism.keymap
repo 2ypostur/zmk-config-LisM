@@ -23,22 +23,22 @@
 
         jp_LANG1 {
             bindings = <&kp LANG1>;
-            key-positions = <5 6>;
+            key-positions = <6 7>;
         };
 
         en_LANG2 {
             bindings = <&kp LANG2>;
-            key-positions = <3 4>;
+            key-positions = <2 3>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
         };
 
 
