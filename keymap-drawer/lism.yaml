@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: '6', h: LEFT SHIFT}
+  - {t: '5', h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -40,7 +40,7 @@ layers:
   - BS
   - {t: ENTER, h: Mouse Layer}
   - Sft+Gui+4
-  - SPACE
+  - CAPS
   - LANG1
   - {t: '9', h: LCTRL}
   Mouse Layer:
