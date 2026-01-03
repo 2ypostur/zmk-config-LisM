@@ -47,10 +47,17 @@
             key-positions = <7 8>;
         };
 
-        eq {
+        single_quotation {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 9>;
         };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <5 6>;
+        };
+
+
     };
 
 
