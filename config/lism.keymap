@@ -48,7 +48,7 @@
         };
 
         eq {
-            bindings = <&kp QUOTE>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 9>;
         };
     };
