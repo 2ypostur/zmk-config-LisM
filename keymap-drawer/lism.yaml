@@ -233,9 +233,9 @@ layers:
   - ''
   - SEMI
   - '&mkp MB1'
-  - '&mkp MB1'
-  - UP ARROW
   - '&mkp MB2'
+  - UP ARROW
+  - LEFT SHIFT
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
