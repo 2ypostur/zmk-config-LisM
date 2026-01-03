@@ -44,12 +44,12 @@
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            key-positions = <7 8>;
         };
 
         eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            bindings = <&kp QUOTE>;
+            key-positions = <8 9>;
         };
     };
 
