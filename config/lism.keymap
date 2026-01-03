@@ -57,6 +57,10 @@
             key-positions = <5 6>;
         };
 
+       tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <3 4>;
+        };
 
     };
 
