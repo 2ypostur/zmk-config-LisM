@@ -101,31 +101,20 @@
 
 
     behaviors {
-        /* 既存：タップでレイヤー0へ、ホールドで一時的に別レイヤー（使用側で引数を渡す） */
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            bindings = <&mo>, <&to_layer_0>;
-        };
-
-        /* ホールド=⌘+Shift、タップ=Left Arrow */
         ht_cmdshift_left: ht_cmdshift_left {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_CMDSHIFT_LEFT";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            bindings = <&cmd_shift_hold &kp LEFT_ARROW>;
+            bindings = <&cmd_shift_latch>, <&kp LEFT_ARROW>;
         };
 
-        /* ホールド=⌘+Option、タップ=‘5’ */
         ht_cmdopt_5: ht_cmdopt_5 {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_CMDOPT_5";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            bindings = <&cmd_opt_hold &kp NUMBER_5>;
+            bindings = <&cmd_opt_latch>, <&kp NUMBER_5>;
         };
     };
 
@@ -149,7 +138,7 @@
             bindings = <
                 &kp ESCAPE      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                    &kp COMMA  &kp PERIOD      &mkp MB3        &kp LBKT        &kp RBKT
                 &kp TAB         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL                       &kp SEMI   &mkp MB1        &mkp MB1        &kp UP_ARROW    &mkp MB2
-                &kp LEFT_CRTL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                       &kp SLASH  &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                &kp LEFT_CTRL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                       &kp SLASH  &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                 &trans          &trans        &trans        &trans        &trans    &trans        &trans  &trans     &trans          &trans          &trans          &trans
             >;
             sensor-bindings = <&encoder_kp PAGE_UP PAGE_DOWN>;
