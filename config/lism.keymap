@@ -97,21 +97,21 @@
 
     behaviors {
         ht_cmdshift_left: ht_cmdshift_left {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HT_CMDSHIFT_LEFT";
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;
-                bindings = <&cmd_shift_latch &kp LEFT_ARROW>;
-            };
-
-        ht_cmdopt_5: ht_cmdopt_5 {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HT_CMDOPT_5";
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;
-                bindings = <&cmd_opt_latch &kp NUMBER_5>;
-            };
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_CMDSHIFT_LEFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&cmd_shift_latch &tap_left>;
     };
+
+    ht_cmdopt_5: ht_cmdopt_5 {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HT_CMDOPT_5";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&cmd_opt_latch &tap_5>;
+    };
+};
 
 
     keymap {
@@ -122,7 +122,7 @@
             bindings = <
                 &kp Q            &kp W              &kp E                   &kp R              &kp T                                                  &kp Y        &kp U            &lt 2 I               &kp O               &kp P
                 &kp A            &kp S              &kp D                   &kp F              &kp G                                                  &kp H        &kp J            &kp K                 &kp L               &mt LEFT_SHIFT NUMBER_6
-                &kp Z            &kp X              &kp C                   &kp V              &kp B                                                  &kp N        &kp M            &ht_cmdshift_left 0 0 &ht_cmdopt_5 0 0    &kp RIGHT_ARROW
+                &kp Z            &kp X              &kp C                   &kp V              &kp B                                                  &kp N        &kp M            &ht_cmdshift_left     &ht_cmdopt          &kp RIGHT_ARROW
                 &kp LEFT_SHIFT   &kp LEFT_ALT       &lt 6 LANG1             &kp LEFT_GUI       &lt 2 LANG2      &kp SPACE          &kp BACKSPACE      &lt 1 ENTER  &kp NUMBER_4     &kp SPACE             &kp LANG1           &mt LCTRL NUMBER_9
             >;
         };
